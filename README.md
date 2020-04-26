@@ -1,4 +1,4 @@
-View this project on [CADLAB.io](https://cadlab.io/project/1072). 
+View this project on [CADLAB.io](https://cadlab.io/project/2306).
 
 # gbaZero
 
@@ -63,7 +63,7 @@ Ta-da! With a few magnet wire fixes and a new supervisor, there's an image! This
 ### Audio Circuitry
 
 ![12 - Audio Circuit.jpg](https://raw.githubusercontent.com/AEFeinstein/gbaZero/master/Images/Assembly/12%20-%20Audio%20Circuit.jpg)
-While most Raspberry Pis have audio output, the Zero does not. It's the cost to pay for a tiny $5 board. Luckily, it can still output a PWM audio signal. A little RC filtering and amplifying later, and it should be good to go. The headphone jack and volume potentiometer were new parts. A minor annoyance, GND and 5V are swapped on the volume potentiometer, so rotating it towards max volume (according to the plastic shell) makes it quieter. 
+While most Raspberry Pis have audio output, the Zero does not. It's the cost to pay for a tiny \$5 board. Luckily, it can still output a PWM audio signal. A little RC filtering and amplifying later, and it should be good to go. The headphone jack and volume potentiometer were new parts. A minor annoyance, GND and 5V are swapped on the volume potentiometer, so rotating it towards max volume (according to the plastic shell) makes it quieter.
 
 ![13 - Audio Filter.jpg](https://raw.githubusercontent.com/AEFeinstein/gbaZero/master/Images/Assembly/13%20-%20Audio%20Filter.jpg)
 Here's a microscope shot of the buffer and five passives that make up the filter. The design was taken from the Raspberry Pi 3 schematic. Once again, there's a problem in here. More on that shortly.
@@ -135,7 +135,7 @@ Software doesn't get pretty pictures, sorry.
 
 I connected a USB wifi dongle to the Raspberry Pi using a USB OTG cable and configured with [these instructions](http://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/). I only used wifi during configuration.
 
-The base OS is [Adafruit's version of Jessie Lite](https://learn.adafruit.com/adafruit-2-8-pitft-capacitive-touch/easy-install), with kernel drivers for the display already built in. [RetroPie](https://retropie.org.uk/) was installed on top of that, which handles all of the game playing. I also used [another of Adafruit's guides](https://learn.adafruit.com/running-opengl-based-games-and-emulators-on-adafruit-pitft-displays/pitft-setup) to install fbcp, necessary to draw to the display from RetroPie. 
+The base OS is [Adafruit's version of Jessie Lite](https://learn.adafruit.com/adafruit-2-8-pitft-capacitive-touch/easy-install), with kernel drivers for the display already built in. [RetroPie](https://retropie.org.uk/) was installed on top of that, which handles all of the game playing. I also used [another of Adafruit's guides](https://learn.adafruit.com/running-opengl-based-games-and-emulators-on-adafruit-pitft-displays/pitft-setup) to install fbcp, necessary to draw to the display from RetroPie.
 
 [Retrogame](https://github.com/adafruit/Adafruit-Retrogame) was used to map the button GPIOs to actual key input. I had to further modify the mappings in Emulationstation (a part of RetroPie) because some games expected key combinations that happened to do other things, like quit the game.
 
@@ -148,4 +148,5 @@ One hiccup was that initially there was no audio output, even though it was set 
 The other hiccup was a hardware failure. Every once in a while, though with increasing frequency, the Raspberry Pi wouldn't boot, but would print "mmc0: fsm 1, hsts 1" to the terminal in an infinite loop. Turns out the SD card was busted and had to be replaced. Good thing I made a system image after tweaking the install to my liking.
 
 ## Final Thoughts
+
 Hardware design is hard, and not everything can be fixed in software. Most of the janky fixes from the v1 PCB were fixed in the v2 one, but it's still not perfect. If only fabricating a board was as easy as typing "make." Also, Link's Awakening DX is still awesome.
