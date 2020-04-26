@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="13" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +54,21 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -132,6 +135,8 @@
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="yes"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
@@ -182,7 +187,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="adafruit">
+<library name="adafruit" urn="urn:adsk.eagle:library:420">
 <packages>
 <package name="SOT23">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
@@ -1769,11 +1774,11 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply2">
+<library name="supply2" urn="urn:adsk.eagle:library:372">
 <packages>
 </packages>
 <symbols>
-<symbol name="+05V">
+<symbol name="+05V" urn="urn:adsk.eagle:symbol:26987/1" library_version="2">
 <wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
 <wire x1="0" y1="0.635" x2="0" y2="1.905" width="0.1524" layer="94"/>
 <circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
@@ -1782,7 +1787,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="+5V" prefix="SUPPLY">
+<deviceset name="+5V" urn="urn:adsk.eagle:component:27032/1" prefix="SUPPLY" library_version="2">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="+5V" symbol="+05V" x="0" y="0"/>
@@ -1797,14 +1802,14 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="frames">
+<library name="frames" urn="urn:adsk.eagle:library:229">
 <packages>
 </packages>
 <symbols>
-<symbol name="LETTER_L">
+<symbol name="LETTER_L" urn="urn:adsk.eagle:symbol:13870/1" library_version="1">
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="12" rows="17" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 </symbol>
-<symbol name="DOCFIELD">
+<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:13864/1" library_version="1">
 <wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
@@ -1835,7 +1840,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LETTER_L" prefix="FRAME" uservalue="yes">
+<deviceset name="LETTER_L" urn="urn:adsk.eagle:component:13920/1" prefix="FRAME" uservalue="yes" library_version="1">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 LETTER landscape</description>
 <gates>
@@ -5168,7 +5173,7 @@ digikey: SC1488-1-ND</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Aesthetics">
+<library name="SparkFun-Aesthetics" urn="urn:adsk.eagle:library:507">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
 We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
@@ -5247,6 +5252,267 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="gbz master">
+<packages>
+<package name="AB_BUTTON">
+<circle x="6.5484875" y="2.240271875" radius="2.26325" width="0" layer="51"/>
+<circle x="-6.5484875" y="-2.240271875" radius="2.26325" width="0" layer="51"/>
+<polygon width="0.1524" layer="1">
+<vertex x="-7.950090625" y="-5.261765625"/>
+<vertex x="-7.122915625" y="-5.4915375"/>
+<vertex x="-6.916121875" y="-4.89413125"/>
+<vertex x="-6.985053125" y="-4.733290625"/>
+<vertex x="-6.870165625" y="-4.181840625"/>
+<vertex x="-6.75528125" y="-3.53848125"/>
+<vertex x="-6.732303125" y="-2.849165625"/>
+<vertex x="-6.709325" y="-2.09091875"/>
+<vertex x="-6.75528125" y="-1.332675"/>
+<vertex x="-6.8242125" y="-0.689315625"/>
+<vertex x="-6.962075" y="-0.689315625"/>
+<vertex x="-7.260778125" y="-0.8042"/>
+<vertex x="-7.55948125" y="-1.01099375"/>
+<vertex x="-7.536503125" y="-1.53946875"/>
+<vertex x="-7.49055" y="-2.136875"/>
+<vertex x="-7.513525" y="-2.73428125"/>
+<vertex x="-7.58245625" y="-3.377640625"/>
+<vertex x="-7.674365625" y="-4.08993125"/>
+<vertex x="-7.766275" y="-4.50351875"/>
+<vertex x="-7.927115625" y="-4.710315625"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="-5.100925" y="0.758246875"/>
+<vertex x="-5.928103125" y="0.98801875"/>
+<vertex x="-6.134896875" y="0.3906125"/>
+<vertex x="-6.065965625" y="0.229771875"/>
+<vertex x="-6.180853125" y="-0.32168125"/>
+<vertex x="-6.2957375" y="-0.965040625"/>
+<vertex x="-6.318715625" y="-1.654353125"/>
+<vertex x="-6.341690625" y="-2.4126"/>
+<vertex x="-6.2957375" y="-3.170846875"/>
+<vertex x="-6.22680625" y="-3.81420625"/>
+<vertex x="-6.08894375" y="-3.81420625"/>
+<vertex x="-5.790240625" y="-3.69931875"/>
+<vertex x="-5.4915375" y="-3.492525"/>
+<vertex x="-5.514515625" y="-2.964053125"/>
+<vertex x="-5.56046875" y="-2.366646875"/>
+<vertex x="-5.537490625" y="-1.769240625"/>
+<vertex x="-5.468559375" y="-1.12588125"/>
+<vertex x="-5.376653125" y="-0.4135875"/>
+<vertex x="-5.28474375" y="0"/>
+<vertex x="-5.123903125" y="0.20679375"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="-9.374675" y="0.022978125"/>
+<vertex x="-9.374675" y="-4.4345875" curve="135"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="-3.722296875" y="-4.4345875"/>
+<vertex x="-3.722296875" y="0.022978125" curve="135"/>
+</polygon>
+<smd name="B@1" x="-8.91513125" y="-2.182828125" dx="1.14885625" dy="0.574428125" layer="1" rot="R90"/>
+<smd name="GND@2" x="-4.1358875" y="-2.182828125" dx="1.14885625" dy="0.574428125" layer="1" rot="R90"/>
+<smd name="B@2" x="-5.675353125" y="0.114884375" dx="1.14885625" dy="0.574428125" layer="1" rot="R77"/>
+<smd name="GND@1" x="-7.398640625" y="-4.6873375" dx="1.14885625" dy="0.574428125" layer="1" rot="R77"/>
+<polygon width="0.1524" layer="1">
+<vertex x="5.14688125" y="-0.781221875"/>
+<vertex x="5.97405625" y="-1.01099375"/>
+<vertex x="6.180853125" y="-0.4135875"/>
+<vertex x="6.111921875" y="-0.25275"/>
+<vertex x="6.22680625" y="0.298703125"/>
+<vertex x="6.341690625" y="0.9420625"/>
+<vertex x="6.36466875" y="1.631378125"/>
+<vertex x="6.387646875" y="2.389621875"/>
+<vertex x="6.341690625" y="3.14786875"/>
+<vertex x="6.272759375" y="3.791228125"/>
+<vertex x="6.134896875" y="3.791228125"/>
+<vertex x="5.83619375" y="3.67634375"/>
+<vertex x="5.537490625" y="3.46955"/>
+<vertex x="5.56046875" y="2.941075"/>
+<vertex x="5.606421875" y="2.34366875"/>
+<vertex x="5.583446875" y="1.7462625"/>
+<vertex x="5.514515625" y="1.102903125"/>
+<vertex x="5.42260625" y="0.3906125"/>
+<vertex x="5.330696875" y="-0.022978125"/>
+<vertex x="5.16985625" y="-0.229771875"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="7.996046875" y="5.2387875"/>
+<vertex x="7.16886875" y="5.468559375"/>
+<vertex x="6.962075" y="4.871153125"/>
+<vertex x="7.03100625" y="4.710315625"/>
+<vertex x="6.916121875" y="4.1588625"/>
+<vertex x="6.801234375" y="3.515503125"/>
+<vertex x="6.77825625" y="2.8261875"/>
+<vertex x="6.75528125" y="2.06794375"/>
+<vertex x="6.801234375" y="1.309696875"/>
+<vertex x="6.870165625" y="0.6663375"/>
+<vertex x="7.008028125" y="0.6663375"/>
+<vertex x="7.30673125" y="0.781221875"/>
+<vertex x="7.605434375" y="0.98801875"/>
+<vertex x="7.58245625" y="1.516490625"/>
+<vertex x="7.536503125" y="2.113896875"/>
+<vertex x="7.55948125" y="2.711303125"/>
+<vertex x="7.6284125" y="3.3546625"/>
+<vertex x="7.720321875" y="4.066953125"/>
+<vertex x="7.812228125" y="4.48054375"/>
+<vertex x="7.97306875" y="4.6873375"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="3.722296875" y="4.50351875"/>
+<vertex x="3.722296875" y="0.045953125" curve="135"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="9.374675" y="0.045953125"/>
+<vertex x="9.374675" y="4.50351875" curve="135"/>
+</polygon>
+<smd name="A@1" x="4.181840625" y="2.297715625" dx="1.14885625" dy="0.574428125" layer="1" rot="R90"/>
+<smd name="GND@4" x="8.9610875" y="2.297715625" dx="1.14885625" dy="0.574428125" layer="1" rot="R90"/>
+<smd name="A@2" x="7.42161875" y="4.595428125" dx="1.14885625" dy="0.574428125" layer="1" rot="R77"/>
+<smd name="GND@3" x="5.69833125" y="-0.20679375" dx="1.14885625" dy="0.574428125" layer="1" rot="R77"/>
+<circle x="-6.5484875" y="-2.240271875" radius="3.72714375" width="0.1016" layer="39"/>
+<circle x="6.5484875" y="2.240271875" radius="3.72714375" width="0.1016" layer="39"/>
+<polygon width="0.4064" layer="29">
+<vertex x="-7.950090625" y="-5.261765625"/>
+<vertex x="-7.122915625" y="-5.4915375"/>
+<vertex x="-6.916121875" y="-4.89413125"/>
+<vertex x="-6.985053125" y="-4.733290625"/>
+<vertex x="-6.870165625" y="-4.181840625"/>
+<vertex x="-6.75528125" y="-3.53848125"/>
+<vertex x="-6.732303125" y="-2.849165625"/>
+<vertex x="-6.709325" y="-2.09091875"/>
+<vertex x="-6.75528125" y="-1.332675"/>
+<vertex x="-6.8242125" y="-0.689315625"/>
+<vertex x="-6.962075" y="-0.689315625"/>
+<vertex x="-7.260778125" y="-0.8042"/>
+<vertex x="-7.55948125" y="-1.01099375"/>
+<vertex x="-7.536503125" y="-1.53946875"/>
+<vertex x="-7.49055" y="-2.136875"/>
+<vertex x="-7.513525" y="-2.73428125"/>
+<vertex x="-7.58245625" y="-3.377640625"/>
+<vertex x="-7.674365625" y="-4.08993125"/>
+<vertex x="-7.766275" y="-4.50351875"/>
+<vertex x="-7.927115625" y="-4.710315625"/>
+</polygon>
+<polygon width="0.4064" layer="29">
+<vertex x="-5.100925" y="0.758246875"/>
+<vertex x="-5.928103125" y="0.98801875"/>
+<vertex x="-6.134896875" y="0.3906125"/>
+<vertex x="-6.065965625" y="0.229771875"/>
+<vertex x="-6.180853125" y="-0.32168125"/>
+<vertex x="-6.2957375" y="-0.965040625"/>
+<vertex x="-6.318715625" y="-1.654353125"/>
+<vertex x="-6.341690625" y="-2.4126"/>
+<vertex x="-6.2957375" y="-3.170846875"/>
+<vertex x="-6.22680625" y="-3.81420625"/>
+<vertex x="-6.08894375" y="-3.81420625"/>
+<vertex x="-5.790240625" y="-3.69931875"/>
+<vertex x="-5.4915375" y="-3.492525"/>
+<vertex x="-5.514515625" y="-2.964053125"/>
+<vertex x="-5.56046875" y="-2.366646875"/>
+<vertex x="-5.537490625" y="-1.769240625"/>
+<vertex x="-5.468559375" y="-1.12588125"/>
+<vertex x="-5.376653125" y="-0.4135875"/>
+<vertex x="-5.28474375" y="0"/>
+<vertex x="-5.123903125" y="0.20679375"/>
+</polygon>
+<polygon width="0.4064" layer="29">
+<vertex x="-9.374675" y="0.022978125"/>
+<vertex x="-9.374675" y="-4.4345875" curve="135"/>
+</polygon>
+<polygon width="0.4064" layer="29">
+<vertex x="-3.722296875" y="-4.4345875"/>
+<vertex x="-3.722296875" y="0.022978125" curve="135"/>
+</polygon>
+<polygon width="0.4064" layer="29">
+<vertex x="5.14688125" y="-0.781221875"/>
+<vertex x="5.97405625" y="-1.01099375"/>
+<vertex x="6.180853125" y="-0.4135875"/>
+<vertex x="6.111921875" y="-0.25275"/>
+<vertex x="6.22680625" y="0.298703125"/>
+<vertex x="6.341690625" y="0.9420625"/>
+<vertex x="6.36466875" y="1.631378125"/>
+<vertex x="6.387646875" y="2.389621875"/>
+<vertex x="6.341690625" y="3.14786875"/>
+<vertex x="6.272759375" y="3.791228125"/>
+<vertex x="6.134896875" y="3.791228125"/>
+<vertex x="5.83619375" y="3.67634375"/>
+<vertex x="5.537490625" y="3.46955"/>
+<vertex x="5.56046875" y="2.941075"/>
+<vertex x="5.606421875" y="2.34366875"/>
+<vertex x="5.583446875" y="1.7462625"/>
+<vertex x="5.514515625" y="1.102903125"/>
+<vertex x="5.42260625" y="0.3906125"/>
+<vertex x="5.330696875" y="-0.022978125"/>
+<vertex x="5.16985625" y="-0.229771875"/>
+</polygon>
+<polygon width="0.4064" layer="29">
+<vertex x="7.996046875" y="5.2387875"/>
+<vertex x="7.16886875" y="5.468559375"/>
+<vertex x="6.962075" y="4.871153125"/>
+<vertex x="7.03100625" y="4.710315625"/>
+<vertex x="6.916121875" y="4.1588625"/>
+<vertex x="6.801234375" y="3.515503125"/>
+<vertex x="6.77825625" y="2.8261875"/>
+<vertex x="6.75528125" y="2.06794375"/>
+<vertex x="6.801234375" y="1.309696875"/>
+<vertex x="6.870165625" y="0.6663375"/>
+<vertex x="7.008028125" y="0.6663375"/>
+<vertex x="7.30673125" y="0.781221875"/>
+<vertex x="7.605434375" y="0.98801875"/>
+<vertex x="7.58245625" y="1.516490625"/>
+<vertex x="7.536503125" y="2.113896875"/>
+<vertex x="7.55948125" y="2.711303125"/>
+<vertex x="7.6284125" y="3.3546625"/>
+<vertex x="7.720321875" y="4.066953125"/>
+<vertex x="7.812228125" y="4.48054375"/>
+<vertex x="7.97306875" y="4.6873375"/>
+</polygon>
+<polygon width="0.4064" layer="29">
+<vertex x="3.722296875" y="4.50351875"/>
+<vertex x="3.722296875" y="0.045953125" curve="135"/>
+</polygon>
+<polygon width="0.4064" layer="29">
+<vertex x="9.374675" y="0.045953125"/>
+<vertex x="9.374675" y="4.50351875" curve="135"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="AB_BUTTON">
+<pin name="A" x="-10.16" y="0" visible="pin" length="middle"/>
+<pin name="GND" x="10.16" y="-2.54" visible="off" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<pin name="B" x="-10.16" y="-5.08" visible="pin" length="middle"/>
+<wire x1="-5.08" y1="-5.08" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="3.81" x2="-7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-6.35" x2="7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-6.35" x2="7.62" y2="3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="-7.62" y2="3.81" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AB_BUTTON" prefix="S">
+<gates>
+<gate name="G$1" symbol="AB_BUTTON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AB_BUTTON">
+<connects>
+<connect gate="G$1" pin="A" pad="A@1 A@2"/>
+<connect gate="G$1" pin="B" pad="B@1 B@2"/>
+<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3 GND@4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5254,6 +5520,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+</class>
+<class number="1" name="power" width="0.2794" drill="0">
 </class>
 </classes>
 <parts>
@@ -5266,15 +5534,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C12" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1μF"/>
 <part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="10μF"/>
 <part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="10μF"/>
-<part name="SUPPLY10" library="supply2" deviceset="+5V" device=""/>
+<part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="GND21" library="microbuilder" deviceset="GND" device=""/>
-<part name="U1" library="adafruit" deviceset="AXP083" device="-SAG" value="APX803"/>
+<part name="U1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="AXP083" device="-SAG" value="APX803"/>
 <part name="GND1" library="microbuilder" deviceset="GND" device=""/>
-<part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
 <part name="P1" library="gba-zero-parts" deviceset="DISP_LCD_CTP28" device="" value="50_PIN_CON"/>
 <part name="GND5" library="microbuilder" deviceset="GND" device=""/>
 <part name="R8" library="microbuilder" deviceset="RESISTOR" device="0603" value="10K"/>
-<part name="SUPPLY1" library="supply2" deviceset="+5V" device=""/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="GND4" library="microbuilder" deviceset="GND" device=""/>
 <part name="R2" library="microbuilder" deviceset="RESISTOR" device="0603" value="3.9K"/>
 <part name="R18" library="microbuilder" deviceset="RESISTOR" device="0603" value="22"/>
@@ -5299,33 +5567,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S3" library="gba-zero-parts" deviceset="SHOULDER_BUTTON" device=""/>
 <part name="S4" library="gba-zero-parts" deviceset="START_SELECT_BUTTON" device=""/>
 <part name="U7" library="gba-zero-parts" deviceset="POWERBOOST-1000C" device=""/>
-<part name="SUPPLY11" library="supply2" deviceset="+5V" device=""/>
+<part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="GND24" library="microbuilder" deviceset="GND" device=""/>
 <part name="GND25" library="microbuilder" deviceset="GND" device=""/>
 <part name="GND18" library="microbuilder" deviceset="GND" device=""/>
 <part name="U3" library="gba-zero-parts" deviceset="74LVC2G02" device=""/>
 <part name="U4" library="gba-zero-parts" deviceset="74LVC3G04" device=""/>
 <part name="D2" library="gba-zero-parts" deviceset="LTST-C19HE1WT" device=""/>
-<part name="SUPPLY2" library="supply2" deviceset="+5V" device=""/>
-<part name="SUPPLY9" library="supply2" deviceset="+5V" device=""/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
+<part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="GND7" library="microbuilder" deviceset="GND" device=""/>
 <part name="GND9" library="microbuilder" deviceset="GND" device=""/>
 <part name="D3" library="microbuilder" deviceset="DIODE" device="SOD-123" value="B0540WQ-7-F"/>
 <part name="GND20" library="microbuilder" deviceset="GND" device=""/>
 <part name="GND3" library="microbuilder" deviceset="GND" device=""/>
 <part name="S5" library="gba-zero-parts" deviceset="AB_BUTTON" device=""/>
-<part name="SUPPLY12" library="supply2" deviceset="+5V" device=""/>
+<part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="U2" library="fairchild" deviceset="NC7WZ16" device=""/>
 <part name="J1" library="gba-zero-parts" deviceset="SWTCHCRFT_3.5JACK" device="5-JACK-SMD"/>
 <part name="R17" library="gba-zero-parts" deviceset="RK10J12E0A0A" device="" value="10K"/>
 <part name="SP1" library="GBA" deviceset="SPEAKER" device=""/>
-<part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SUPPLY7" library="supply2" deviceset="+5V" device=""/>
-<part name="SUPPLY6" library="supply2" deviceset="+5V" device=""/>
+<part name="GND12" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
+<part name="GND10" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
+<part name="GND17" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
+<part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="VCC5" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND6" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
 <part name="R16" library="microbuilder" deviceset="RESISTOR" device="0603" value="167"/>
 <part name="R15" library="microbuilder" deviceset="RESISTOR" device="0603" value="250"/>
 <part name="R14" library="microbuilder" deviceset="RESISTOR" device="0603" value="250"/>
@@ -5333,7 +5601,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R9" library="microbuilder" deviceset="RESISTOR" device="0603" value="220"/>
 <part name="R10" library="microbuilder" deviceset="RESISTOR" device="0603" value="100"/>
 <part name="R20" library="microbuilder" deviceset="RESISTOR" device="0603" value="150"/>
-<part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND22" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
 <part name="P2" library="gba-zero-parts" deviceset="JST_2PIN" device=""/>
 <part name="GND23" library="microbuilder" deviceset="GND" device=""/>
 <part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1μF"/>
@@ -5345,16 +5613,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="10μF"/>
 <part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="100μF"/>
 <part name="U5" library="gba-zero-parts" deviceset="LM4875" device=""/>
-<part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND14" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
 <part name="R11" library="microbuilder" deviceset="RESISTOR" device="0603" value="100K"/>
-<part name="SUPPLY4" library="supply2" deviceset="+5V" device=""/>
+<part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="10μF"/>
 <part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1μF"/>
 <part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="10μF"/>
 <part name="VCC6" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND13" library="microbuilder" deviceset="GND" device=""/>
 <part name="GND11" library="microbuilder" deviceset="GND" device=""/>
-<part name="SUPPLY8" library="supply2" deviceset="+5V" device=""/>
+<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="R1" library="microbuilder" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="R3" library="microbuilder" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="D4" library="microbuilder" deviceset="DIODE" device="SOD-123" value="B0540WQ-7-F"/>
@@ -5362,8 +5630,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="10μF"/>
 <part name="R12" library="microbuilder" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="U$1" library="gba-zero-parts" deviceset="SIGNATURE" device=""/>
-<part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SUPPLY3" library="supply2" deviceset="+5V" device=""/>
+<part name="GND8" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
+<part name="S7" library="gbz master" deviceset="AB_BUTTON" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5565,6 +5834,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$1" gate="G$1" x="241.3" y="241.3"/>
 <instance part="GND8" gate="1" x="83.82" y="228.6"/>
 <instance part="SUPPLY3" gate="+5V" x="83.82" y="241.3"/>
+<instance part="S7" gate="G$1" x="30.48" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -5691,6 +5961,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="40.64" y="119.38"/>
 <junction x="40.64" y="149.86"/>
 <junction x="40.64" y="142.24"/>
+<pinref part="S7" gate="G$1" pin="GND"/>
+<wire x1="40.64" y1="119.38" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
@@ -6665,6 +6937,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="45.72" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="BTN_X" class="0">
+<segment>
+<pinref part="S7" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="109.22" x2="10.16" y2="109.22" width="0.1524" layer="91"/>
+<label x="7.62" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="GPIO6"/>
+<wire x1="172.72" y1="58.42" x2="160.02" y2="58.42" width="0.1524" layer="91"/>
+<label x="160.02" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BTN_Y" class="0">
+<segment>
+<pinref part="S7" gate="G$1" pin="B"/>
+<wire x1="20.32" y1="104.14" x2="7.62" y2="104.14" width="0.1524" layer="91"/>
+<label x="7.62" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="GPIO19"/>
+<wire x1="172.72" y1="53.34" x2="160.02" y2="53.34" width="0.1524" layer="91"/>
+<label x="160.02" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -6678,6 +6974,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
